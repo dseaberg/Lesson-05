@@ -1,0 +1,35 @@
+body {
+  background-color: burlywood;
+}
+
+header {
+  width: 400px;
+  height: 200px;
+  background: green;
+  color: yellow;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flexbox-wrapper {
+  background: white;
+  display: flex;
+  min-height: 200px;
+  width: 100%;
+}
+
+.flex-item {
+  background: lightgray;
+  border: 1px dashed crimson;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+  width: 100px;
+  height: 100px;
+}
+
+.flex-item:nth-of-type(2n) {
+  //height: 150px;
+  border-color: green;
+}
